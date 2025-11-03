@@ -18,7 +18,7 @@ function App() {
         
         <main className='w-full h-fit        
         flex flex-col justify-center items-center
-        mt-35 p-20'>
+        mt-35 p-10 md:p-20'>
           <Routes>
             <Route path='/' element={<CreateUserData />}/>
             <Route path='/listData' element={<GetUserData />}/>

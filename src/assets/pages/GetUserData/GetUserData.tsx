@@ -38,7 +38,7 @@ function GetUserData() {
 
   return (
     <div className="w-full h-fit
-    grid grid-cols-4 gap-2">
+    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
       {data ? data.map(
         (e) => <div className="w-70 flex flex-col justify-start items-start border-2 p-10 gap-2" key={e.id}>
           <p>Name: {e.name}</p>

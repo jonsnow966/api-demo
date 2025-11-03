@@ -26,7 +26,7 @@ function UpdateData() {
     return (
         <div className="w-full h-fit
             flex justify-center items-center">
-            <div className="w-1/2 h-fit 
+            <div className="w-100 h-fit 
             flex flex-col justify-center items-center 
             bg-white">
                 
@@ -61,7 +61,7 @@ function UpdateData() {
                             className="border-2 outline-none"
                         />
                     </label>
-                    <button className="w-1/4 h-fit
+                    <button className="w-20 h-fit
                     flex justify-center items-center
                     p-3
                     rounded-[5px]
